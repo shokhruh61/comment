@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { UserContext } from '../App'
 import Moment from 'react-moment'
-import { PlusIcon, MinusIcon, CrudIcons } from './Icons'
 import CommentForm from './CommentForm'
 
 const Comment = ({
